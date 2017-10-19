@@ -1,0 +1,17 @@
+body { 
+	position: relative;
+	height: 100%;
+	background-color:rgb(41,41,57);
+}
+#About { padding-top:60px;
+			height: 500px;
+ }
+#Education { padding-top:50px;
+			height: 500px;
+ }
+ #Gallery { padding-top:50px;
+			height: 500px;
+ }
+ #Skills { padding-top:50px;
+			height: 500px;
+ }
