@@ -4,14 +4,27 @@ body {
 	background-color:rgb(41,41,57);
 }
 #About { padding-top:60px;
-			height: 500px;
+			height: 600px;
+			background-color: rgb(41,41,57);
  }
 #Education { padding-top:50px;
 			height: 500px;
+			background-color: green;
  }
  #Gallery { padding-top:50px;
 			height: 500px;
+			background-color: blue;
  }
  #Skills { padding-top:50px;
 			height: 500px;
+			background-color: yellow;
+ }
+ #showonload {
+		height: 450px;
+		margin: 50px;
+		border:1px solid black;
+		text-align:center;
+		background-color: rgb(20,20,100);
+		box-shadow: -8px 8px 20px rgb(0,0,0);
+		
  }

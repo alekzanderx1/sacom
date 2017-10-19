@@ -19,7 +19,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span> 
 				</button>
-				<a class="navbar-brand" href="#">Syed Ahmad</a> 
+				<a class="navbar-brand" href="#"><strong>Syed Ahmad</strong></a> 
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
@@ -31,12 +31,11 @@
 			</div>
 		</div>
 	</div>
-	<div id="About" class="container-fluid" style="color:white">
-		<p id="hide">CLick to hide</p>
-		<div id="hideme">
-		<h3> Syed Ahmad</h3>
-		<p>Computer Science and Engineering Student</p>
+	<div id="About" class="container-fluid">
+		<div id="showonload">
+			<h2>Syed Ahmad</h4>
 		</div>
+		
 	</div>
 	<div id="Education" class="container-fluid">
 		
@@ -52,9 +51,8 @@
 	</div>
 	<script>
 	$(function() {
-		$("#hide").click(function() {
-			$("#hideme").toggle();
-		});
+		$("#showonload").hide();
+		$("#showonload").fadeIn(8000);
 	});
 	</script>
 </body>
